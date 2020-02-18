@@ -1,0 +1,19 @@
+# ayuda
+ayuda no entiendo que esta mal
+<!DOCTYPE html>
+<html>
+    <body>
+        <img id="mostrar-imagen" onclick="cambiarimagen()" src="C:\Users\tomas\3D Objects\ejemplos de html\imagen javascript\222.png" width="180" height="180">
+        <script>
+        function cambiarimagen() {
+            var ImagenMostrada = document.getElementById('mostrar-imagen');
+            if (ImagenMostrada.src.match("C:\Users\tomas\3D Objects\ejemplos de html\imagen javascript\222.png")) {
+                ImagenMostrada.src = "C:\Users\tomas\3D Objects\ejemplos de html\imagen javascript\2.png";
+            }
+            else {
+                ImagenMostrada.src = "C:\Users\tomas\3D Objects\ejemplos de html\imagen javascript\222.png";
+            }
+        }
+        </script>
+    </body>
+</html>
